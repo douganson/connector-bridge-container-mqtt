@@ -7,7 +7,7 @@ Original Date: August 12, 2016
     8/12/2016: Initial checkin. Cloned and configuration file updated from latest runtimes  
 
 Container Bridge source (Apache 2.0 licensed - Enjoy!): https://github.com/ARMmbed/connector-bridge.git
-
+ 
 
 Container Bridge Instance Installation:
 
