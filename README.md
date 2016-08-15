@@ -45,8 +45,6 @@ For your mbed endpoint, you can clone and build (via yotta) this: https://github
 
     - This sample assumes you are using the NXP K64F + mbed Application Shield
 
-NOTE: for the test scripts, I've had issues with paho-mqtt v1.2. Try v1.1... seems to work better.
-
 Enjoy!
 
 Copyright 2015. ARM Ltd. All rights reserved.
