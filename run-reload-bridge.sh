@@ -2,7 +2,7 @@
 
 echo "Getting bridge container ID..."
 
-ID=`docker ps | grep connector-bridge | awk '{print $1}'`
+ID=`docker ps -a | grep home | grep arm | awk '{print $1}'`
 
 if [ "${ID}X" != "X" ]; then
     echo "Stopping $ID"
