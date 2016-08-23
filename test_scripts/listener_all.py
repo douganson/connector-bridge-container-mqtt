@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+ip = "127.0.0.1"
+port = 3883
+
 import paho.mqtt.client as paho
 mqttc = paho.Client()
 
@@ -19,8 +22,7 @@ mqttc.on_connect = on_connect
 mqttc.on_subscribe = on_subscribe
 
 # Connect and subscribe
-ip = "192.168.1.213"
-mqttc.connect(ip, 1883, 60)
+mqttc.connect(ip, port, 60)
 mqttc.subscribe("mbed/#", 0)
 
 # Wait forever, receiving messages
