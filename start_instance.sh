@@ -29,10 +29,16 @@ run_configurator()
   su -l arm -s /bin/bash -c "/home/arm/configurator/runConfigurator.sh 2>&1 1> /tmp/configurator.log &"
 }
 
+set_perms() {
+  cd /home/arm
+  chown -R arm.arm .
+}
+
 main() 
 {
    # report_ip_address
    update_hosts
+   set_perms $*
    run_bridge
    run_configurator
    run_supervisord
