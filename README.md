@@ -12,6 +12,8 @@ Original Date: August 12, 2016
 
     8/23/2016: Updated with latest bridge.
 
+    8/24/2016: Updated with latest bridge.
+
 Container Bridge source (Apache 2.0 licensed - Enjoy!): https://github.com/ARMmbed/connector-bridge.git
  
 
