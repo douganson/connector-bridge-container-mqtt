@@ -16,6 +16,8 @@ Original Date: August 12, 2016
 
     8/31/2016: Updated with latest bridge. Minor fix to CoAP responses where "verb" key is now "coap_verb" key - aligns with request payload structure.
 
+    9/13/2016: Updated with latest bridge.
+
 Container Bridge source (Apache 2.0 licensed - Enjoy!): https://github.com/ARMmbed/connector-bridge.git
  
 
