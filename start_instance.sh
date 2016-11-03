@@ -139,10 +139,7 @@ set_mqtt_port() {
 }  
 
 set_mbed_rest_api() {
-   MBED_REST_API="$8"
-   if [ "$2" = "use-long-polling" ]; then
-       MBED_REST_API="$9"
-   fi
+   MBED_REST_API="${@: -1}"
    if [ "${MBED_REST_API}X" != "X" ]; then
         DIR="mds/connector-bridge/conf"
         FILE="gateway.properties"
