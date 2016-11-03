@@ -138,6 +138,23 @@ set_mqtt_port() {
    fi
 }  
 
+set_mbed_rest_api() {
+   MBED_REST_API="$8"
+   if [ "$2" = "use-long-polling" ]; then
+       MBED_REST_API="$9"
+   fi
+   if [ "${MBED_REST_API}X" != "X" ]; then
+        DIR="mds/connector-bridge/conf"
+        FILE="gateway.properties"
+        cd /home/arm
+        sed -e "s/mbed_rest_api_goes_here/${MBED_REST_API}/g" ${DIR}/${FILE} 2>&1 1> ${DIR}/${FILE}.new
+        mv ${DIR}/${FILE} ${DIR}/${FILE}.mbed_rest_api
+        mv ${DIR}/${FILE}.new ${DIR}/${FILE}
+        chown arm.arm ${DIR}/${FILE}
+   fi
+
+}
+
 set_perms() {
   cd /home/arm
   chown -R arm.arm .
