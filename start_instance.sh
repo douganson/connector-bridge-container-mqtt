@@ -1,11 +1,4 @@
-#!/bin/sh
-
-report_ip_address()
-{
-   IP_ADDRESS=`ifconfig | perl -nle'/dr:(\S+)/ && print $1' | tail -1`
-   HOSTNAME=`hostname`
-   echo "Container Hostname: " ${HOSTNAME} " IP: " ${IP_ADDRESS}
-}
+#!/bin/bash
 
 update_hosts()
 {
@@ -159,7 +152,6 @@ set_perms() {
 
 main() 
 {
-   # report_ip_address
    update_hosts
    enable_long_polling $*
    set_mdc_api_token $*
