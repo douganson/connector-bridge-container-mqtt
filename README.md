@@ -2,31 +2,7 @@ mbed Device Connector integration bridge image importer for generic MQTT brokers
 
 Original Date: August 12, 2016
 
-    8/12/2016: Initial checkin. Cloned and configuration file updated from latest runtimes  
-
-    8/13/2016: Updated with fixes. Added simple test scripts (test_scripts directory)
-
-    8/14/2016: Updated with notification type fixes. NODEFLOW.txt updated with sample node flow for local NodeRED instances
-
-    8/16/2016: Updated with latest bridge. Bridge optionally supports long polling.
-
-    8/23/2016: Updated with latest bridge.
-
-    8/24/2016: Updated with latest bridge.
-
-    8/31/2016: Updated with latest bridge. Minor fix to CoAP responses where "verb" key is now "coap_verb" key - aligns with request payload structure.
-
-    9/13/2016: Updated with latest bridge.
-
-    9/20/2016: Updated with latest bridge.
-
-    11/3/2016: Updated with latest bridge.
-
-    11/9/2016: Updated with latest bridge.
-
-    11/12/2016: Updated with latest bridge.
-
-    11/13/2016: Updated with latest bridge.
+    12/2/2016: Updated with latest bridge.
 
 Container Bridge source (Apache 2.0 licensed - Enjoy!): https://github.com/ARMmbed/connector-bridge.git
  
