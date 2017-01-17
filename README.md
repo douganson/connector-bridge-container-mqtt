@@ -2,7 +2,7 @@ mbed Device Connector integration bridge image importer for generic MQTT brokers
 
 Original Date: August 12, 2016
 
-    12/2/2016: Updated with latest bridge.
+1/17/2017: Updated with the latest bridge. Happy New Year!
 
 Container Bridge source (Apache 2.0 licensed - Enjoy!): https://github.com/ARMmbed/connector-bridge.git
  
