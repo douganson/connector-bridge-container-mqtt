@@ -37,7 +37,7 @@ Enter your MQTT Broker IP address and Connector API Token
 
 Your Generic MQTT bridge should now be configured and operational. 
 
-For your mbed endpoint, you can clone and build (via yotta) this: https://github.com/ARMmbed/mbed-ethernet-sample
+For your mbed endpoint, you can clone and build (via yotta) this: https://github.com/ARMmbed/mbed-ethernet-sample-withdm
 
     - This sample assumes you are using the NXP K64F + mbed Application Shield
 
