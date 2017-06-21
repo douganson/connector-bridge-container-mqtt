@@ -1,17 +1,6 @@
 mbed Device Connector integration bridge image importer for generic MQTT brokers
 
-Original Date: August 12, 2016
-
-5/3/2017: Updated with the latest bridge.
-
-4/26/2017: Updated with the latest bridge (patches for R1.2 GA)
-
-1/26/2017: Updated with the latest bridge. 
-
-1/17/2017: Updated with the latest bridge. Happy New Year!
-
-Container Bridge source (Apache 2.0 licensed - Enjoy!): https://github.com/ARMmbed/connector-bridge.git
- 
+6/20/2017: Cleanups, updates to properties editor and overall structure
 
 Container Bridge Instance Installation:
 
@@ -43,15 +32,11 @@ Enter your MQTT Broker IP address and Connector API Token
 
 Your Generic MQTT bridge should now be configured and operational. 
 
-For your mbed endpoint, you can clone and build (via yotta) this: https://github.com/ARMmbed/mbed-ethernet-sample-withdm
-
-    - This sample assumes you are using the NXP K64F + mbed Application Shield
-
 NOTE: for the test scripts, I've had issues with paho-mqtt v1.2. Try v1.1... seems to work better.
 
-Enjoy!
+Container Bridge source (Apache 2.0 licensed - Enjoy!): https://github.com/ARMmbed/connector-bridge.git
 
-Copyright 2015. ARM Ltd. All rights reserved.
+Copyright 2017. ARM Ltd. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

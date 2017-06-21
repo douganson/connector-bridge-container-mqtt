@@ -28,6 +28,7 @@ fi
 
 echo "Building container image..."
 
+sleep 5
 
 if [ -f Dockerfile ]; then
     docker build -t "mbed/connector-bridge" .
@@ -37,13 +38,14 @@ else
 fi
 
 if [ "$?" = "0" ]; then
-    echo "Starting Bridge..."
-    ./start-bridge.sh
+    echo "Starting Connector Bridge..."
+    ./start-bridge.sh $*
     if [ "$?" = "0" ]; then
-        echo "Bridge Started!"
+        echo "Connector Bridge Started!"
         exit 0
     else
- 	echo "Bridge Start FAILED"
-	exit 2
+        echo "Connector Bridge Start FAILED"
+        exit 2
     fi
 fi
+
