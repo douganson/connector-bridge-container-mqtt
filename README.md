@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge image importer for generic MQTT brokers
 
+10/26/2017: updated bridge - Watson fixes.
+
 9/29/2017: updated bridge - AWS/IoTHub fixes.
 
 7/19/2017: updated bridge
