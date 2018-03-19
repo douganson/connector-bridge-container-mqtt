@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER ARM <doug.anson@arm.com>
+MAINTAINER Doug Anson ARM <doug.anson@arm.com>
 EXPOSE 22/tcp
 EXPOSE 8234/tcp
 EXPOSE 28520/tcp
