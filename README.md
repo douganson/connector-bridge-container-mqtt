@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge image importer for generic MQTT brokers
 
+03/20/2018: updated bridge - significant updates for MQTT TLS support and new Google integration paradigm
+
 03/18/2018: updated configuration file to enable option of MQTT over SSL. If used, leave the mqtt_port at 1883, the bridge will automatically use 8883 (1883+7000). 
 
 02/09/2018: updated bridge - fixes for GET CoAP processing requests
