@@ -1,4 +1,6 @@
-mbed Device Connector integration bridge image importer for generic MQTT brokers
+mbed Device Connector integration bridge for generic MQTT brokers
+
+03/22/2018: updated bridge - New Google integration functional now. Additional minor bridge updates.
 
 03/20/2018: updated bridge - significant updates for MQTT TLS support and new Google integration paradigm
 
