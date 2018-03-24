@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge for generic MQTT brokers
 
+03/24/2018: updated bridge - Google JwT fixes
+
 03/22/2018: updated bridge - New Google integration functional now. Additional minor bridge updates.
 
 03/20/2018: updated bridge - significant updates for MQTT TLS support and new Google integration paradigm
