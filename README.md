@@ -1,6 +1,8 @@
 mbed Device Connector integration bridge for generic MQTT brokers
 
-04/04/2018: udpated bridge - MQTT ack fixes
+04/06/2018: updated bridge - MQTT reconnect fixes
+
+04/04/2018: updated bridge - MQTT ack fixes
 
 04/03/2018: updated bridge - MQTT exception handling updates
 
