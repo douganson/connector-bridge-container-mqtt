@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge for generic MQTT brokers
 
+05/01/2018: updated bridge - Shadow deletion and MQTT abrupt disconnect recovery.
+
 04/18/2018: updated bridge - MQTT abrupt disconnection recovery updates.
 
 04/12/2018: updated bridge - fixes for JwT refresh in Google Bridge. Burn in test. 
