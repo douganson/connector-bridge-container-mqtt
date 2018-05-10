@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge for generic MQTT brokers
 
+05/10/2018: updated bridge - device shadow lifecycle updates. AWS updates. Google updates.
+
 05/04/2018: updated bridge - yet more fixes for device shadow deletion recovery
 
 05/02/2018: updated bridge - more polish on MQTT recovery
