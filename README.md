@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge for generic MQTT brokers
 
+05/30/2018: updated bridge - more keystore enhancements
+
 05/29/2018: updated bridge - keystore fixes
 
 05/13/2018: updated bridge - more lifecycle updates. Hopefully final... :-) 
