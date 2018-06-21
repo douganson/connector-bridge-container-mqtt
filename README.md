@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge for generic MQTT brokers
 
+06/21/2018: updated bridge - minor update for Google
+
 06/20/2018: updated bridge - major update: support for piggybacking authenticated API calls over the device connection. Additional stability updates and fixes.
 
 05/30/2018: updated bridge - more keystore enhancements
