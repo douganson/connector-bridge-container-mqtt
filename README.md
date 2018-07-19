@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge for generic MQTT brokers
 
+07/19/2018: updated bridge - fixed major bug in use of long polling with initial device discovery.
+
 06/21/2018: updated bridge - minor update for Google
 
 06/20/2018: updated bridge - major update: support for piggybacking authenticated API calls over the device connection. Additional stability updates and fixes.
