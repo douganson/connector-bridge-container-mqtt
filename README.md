@@ -1,4 +1,4 @@
-mbed Device Connector integration bridge for generic MQTT brokers
+mbed Device Connector integration bridge for generic MQTT brokers 
 
 07/19/2018: updated bridge - fixed major bug in use of long polling with initial device discovery.
 
