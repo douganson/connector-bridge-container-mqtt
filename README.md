@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge for generic MQTT brokers 
 
+07/30/2018: updated bridge - significant updates for API passthru calling
+
 07/26/2018: updated properties-editor scripts
 
 07/19/2018: updated bridge - fixed major bug in use of long polling with initial device discovery.
