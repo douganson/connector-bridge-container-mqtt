@@ -1,4 +1,6 @@
-mbed Device Connector integration bridge for generic MQTT brokers 
+arm PELION Device Shadow bridge for generic MQTT brokers              
+  
+08/21/2018: updated bridge, properties editor, configuration file structure
 
 08/20/2018: updated bridge and properties editor
 
